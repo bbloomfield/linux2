@@ -1,0 +1,32 @@
+    1  su - soporte
+    2  type git
+    3  cd Documents
+    4  ls
+    5  mkdir linux2
+    6  ls
+    7  cd linux2/
+    8  git init
+    9  git config --global user.name "bbloomfield"
+   10  git config --global user.email "brenda.bloomfield82@gmail.com"
+   11  mkdir src
+   12  mkdir misc
+   13  mkdir logs
+   14  mkdir data
+   15  ls
+   16  touch {misc,src,data}/file1
+   17  tree -a
+   18  tree --a
+   19  tree -a
+   20  git status
+   21  git --add all
+   22  git add -- all
+   23  git add --all
+   24  git status
+   25  su -soporte
+   26  su - soporte
+   27  ls
+   28  cd Do
+   29  cd Documents
+   30  cd linux2/
+   31  pwd
+   32  history > history-clase1
